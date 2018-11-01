@@ -8,7 +8,7 @@ $(document).on("pagecreate","#pageone",function(){
 
 	$('#taptext').on("tap",function(){
         $(this).css('color', 'red');
-        alert("Stop tapping!");
+        
  	}); 
 
 	$('#swipetext').on("swipeleft",function(){
